@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.3.
 
+## functionality
+The component implements password creation. If the password is shorter than 8 characters it will be shown by sections below as they will light red. The component warns the user if the password is too easy or medium and will light up sections to red, yellow, or green colors respectively.
+It also can make the password visible by clicking the eye button.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
